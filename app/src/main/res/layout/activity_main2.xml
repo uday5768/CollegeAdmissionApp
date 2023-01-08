@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/page"
+    android:background="@drawable/gradient"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:layout_width="363dp"
+        android:layout_height="300dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="  APPLICATION OPEN FOR 2023 \n     BATCH !!"
+        android:textColor="#162BAC"
+        android:textSize="50dp"
+        android:textStyle="bold">
+    </TextView>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            />
+        <EditText
+            android:id="@+id/enternumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Enter Phone number"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            />
+    </GridLayout>
+    <Button
+        android:id="@+id/Next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="Sign up OR Log in" />
+</LinearLayout>
